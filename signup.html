@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup form </title>
+</head>
+<style>
+    .card{ 
+            border: 2px solid rgb(80, 81, 82);
+            width: 30%; 
+            border-radius:10px ;
+            padding: 40px;
+            box-sizing: border-box;
+            box-shadow: 5px 3px 10px 0#00000069;
+            background-color: #fff;
+        }
+        .form-title{
+            text-align: center;
+            margin: 30px 40;
+            
+
+        }
+        .text-input{
+            width: 100%;
+            box-sizing: border-box;
+
+            padding: 10px;
+            margin-top: 3px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            border: 1pt solid rgb(82, 79, 79);
+
+
+        }
+        .submit-btn
+        {   width: 100%;
+            padding: 10px;
+            background-color:rgb(19, 19, 168);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            
+}
+        body{
+            display:flex;
+            justify-content:center ;
+            align-items: center;
+
+            height: 100vh;
+        }
+        h2{
+            text-align: center;
+            
+        }
+        
+        label{
+            color: rgb(0, 0, 0);
+            font-weight: 100;
+        }
+       p, a{
+            font-size: small; 
+            padding: 0%;
+            text-decoration: none;
+    
+        }
+        .submit-btn:hover{
+            background-color: #3e8e41;
+        }
+        
+</style>
+<body>
+    <div class="card"> 
+        <h2> Sign up</h2>
+        <form> 
+            <label for="name"> Name</label>
+            <input class =" text-input" type="name"id=" name">
+            <label for=" email"> Email</label>
+            <input class="text-input" type="email" id=" email">
+            <label for="password"> Password</label>
+            <input class="text-input" type="password" id="password">
+            <button class=" submit-btn "> Sign up</button>
+            <p> Already have an account?<a href="login"> Login</a></p>
+           
+        </form>
+    </div>
+
+    
+</body>
+</html>
